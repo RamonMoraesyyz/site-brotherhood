@@ -1,6 +1,9 @@
 
 function Home() {
-    return <h1>Página Inicial</h1>
+    return (<div>
+        <h1>Home</h1>
+        <a href="/sobre"> Acessar página Sobre </a>
 
+    </div>)
 }
 export default Home
