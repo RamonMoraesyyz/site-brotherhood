@@ -17,6 +17,7 @@ const items = [
       <UButton color="black" variant="solid" :ui="{ rounded: 'rounded-none' }">Início</UButton>
       <UButton color="black" variant="solid" :ui="{ rounded: 'rounded-none' }">Sobre nós</UButton>
       <UButton color="black" variant="solid" :ui="{ rounded: 'rounded-none' }">Contato</UButton>
+      <UDropdown :items="items" :popper="{ placement: 'bottom-start' }">
         <UButton color="black" variant="solid" :ui="{ rounded: 'rounded-none' }">Produtos</UButton>
     </UDropdown>
     </div>
