@@ -21,6 +21,21 @@
       </div>
     </header>
   </div>
+ 
+  
+    <footer class="flex justify-between bg-gray-950 px-4 items-center text-gray-50 mt-auto">
+        <div>2023 | Brotherhood bebidas artesanais</div>
+        <div class="flex flex-row items-center">
+          <UButton icon="i-ic-sharp-whatsapp" size="sm" color="black" variant="solid" :trailing="false"></UButton>
+          <UButton icon="i-ic-outline-mail" size="sm" color="black" variant="solid" :trailing="false"></UButton>
+          <UButton icon="i-ri-instagram-line" size="sm" color="black" variant="solid" :trailing="false"></UButton>
+          <UButton icon="i-tabler-phone" size="sm" color="black" variant="solid" :trailing="false"></UButton>
+        </div>
+    </footer>
+    
+
+
+  
 </template>
 
 <script setup>
@@ -31,3 +46,5 @@ const items = [
   [{ label: 'Cerveja 4' }],
 ];
 </script>
+
+
