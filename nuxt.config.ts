@@ -7,7 +7,8 @@ export default defineNuxtConfig({
   },
 
   ui: {
-    icons: 'all'
+    icons: 'all',
+    
   }
   
 })
