@@ -44,7 +44,7 @@
             </button>
         </div>
     </div>
-</main>
+    </main>
   
       <footer class="flex justify-between bg-gray-950 px-4 items-center text-gray-50">
         <div>2023 | Brotherhood bebidas artesanais</div>

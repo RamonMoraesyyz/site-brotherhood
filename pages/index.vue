@@ -5,7 +5,7 @@
       <source src="../public/beervideo.mp4" type="video/mp4">
       
     </video>
-
+    
     <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
       <img src="../public/logobrotherhood.png" alt="Logo" class="w-32 md:w-48 lg:w-64 xl:w-80 mx-auto" />
     </div>
