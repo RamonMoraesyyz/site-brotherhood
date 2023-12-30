@@ -6,6 +6,6 @@ export default defineNuxtConfig({
     preference: 'light'
   },
   ui: {
-    icons: 'all',   
+    icons: ['heroicons', 'ic', 'ri', 'tabler'],   
   }
 })
