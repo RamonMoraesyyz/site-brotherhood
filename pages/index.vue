@@ -39,9 +39,9 @@
 
 <script setup>
 const items = [
-  { label: 'Cerveja 1' },
-  { label: 'Cerveja 2' },
-  { label: 'Cerveja 3' },
-  { label: 'Cerveja 4' },
+  [{ label: 'Cerveja 1' }],
+  [{ label: 'Cerveja 2' }],
+  [{ label: 'Cerveja 3' }],
+  [{ label: 'Cerveja 4' }],
 ];
 </script>
