@@ -60,9 +60,11 @@
   
   <script setup>
   const items = [
-    [{ label: 'Cerveja 1' }],
-    [{ label: 'Cerveja 2' }],
-    [{ label: 'Cerveja 3' }],
-    [{ label: 'Cerveja 4' }],
+    [{ label: 'Witbier' }],
+    [{ label: 'Indian Pale Ale' }],
+    [{ label: 'Saison' }],
+    [{ label: 'Single Trappist' }],
+    [{ label: 'Belgian Strong Bitter' }],
+    [{ label: 'American Golden Ale' }],
   ];
   </script>
