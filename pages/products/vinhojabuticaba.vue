@@ -1,17 +1,7 @@
 <template>
     <div class="min-h-screen bg-orange-50 text-black flex flex-col">
       
-      <header class="bg-black text-white px-4 flex justify-end">
-        <div class="flex flex-row gap-2">
-          <UButton color="black" variant="solid" :ui="{ rounded: 'rounded-none' }">Início</UButton>
-          <UButton color="black" variant="solid" :ui="{ rounded: 'rounded-none' }">Sobre nós</UButton>
-          <UButton color="black" variant="solid" :ui="{ rounded: 'rounded-none' }">Contato</UButton>
-          <UDropdown :items="items" :popper="{ placement: 'bottom-start' }">
-            <UButton color="black" variant="solid" :ui="{ rounded: 'rounded-none' }">Produtos</UButton>
-          </UDropdown>
-        </div>
-      </header>
-    
+      <BrotherNavbar />
       
       <div class="flex-grow flex">
       
@@ -47,15 +37,7 @@
     
       
       
-      <footer class="flex justify-between bg-gray-950 px-4 items-center text-gray-50">
-        <div>2023 | Brotherhood bebidas artesanais</div>
-        <div class="flex flex-row items-center">
-          <UButton icon="i-ic-sharp-whatsapp" size="sm" color="black" variant="solid" :trailing="false"></UButton>
-          <UButton icon="i-ic-outline-mail" size="sm" color="black" variant="solid" :trailing="false"></UButton>
-          <UButton icon="i-ri-instagram-line" size="sm" color="black" variant="solid" :trailing="false"></UButton>
-          <UButton icon="i-tabler-phone" size="sm" color="black" variant="solid" :trailing="false"></UButton>
-        </div>
-      </footer>
+        <BrotherFooter />
     </div>
   </template>
     
