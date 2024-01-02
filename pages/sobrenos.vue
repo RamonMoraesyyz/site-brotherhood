@@ -1,9 +1,6 @@
 <template>
     <div class="h-screen bg-orange-50 text-black flex flex-col">
       
-      <BrotherNavbar />
-    
-      
       <main class="flex flex-col bg-orange-50 h-screen">
         <div class="flex flex-row text-5xl font-bold px-7 py-8">
           <h1>Sobre nós</h1>
@@ -23,8 +20,6 @@
         </div>
       </main>
       
-      <BrotherFooter /> 
-
     </div>
   </template>
     

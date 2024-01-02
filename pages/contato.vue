@@ -1,9 +1,7 @@
 <template>
     <div class="min-h-screen bg-orange-50 text-black">
       
-      <BrotherNavbar />
-  
-      <main class="mt-5">
+      <main>
         <div class="grid grid-cols-2 gap-4">
             <div class="mb-8">
             <h1 class="text-5xl font-bold px-4 py-8">Contato</h1>
@@ -38,8 +36,6 @@
     </div>
     </main>
   
-    <BrotherFooter />
-    
     </div>
   </template>
   

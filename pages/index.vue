@@ -1,7 +1,5 @@
 <template>
   <div class="relative w-full h-screen overflow-hidden">
-    <!-- Header -->
-    <BrotherNavbar />
 
     <!-- Vídeo de Fundo -->
     <div class="absolute w-full h-full bg-yellow-500 opacity-50">
@@ -15,8 +13,6 @@
       <img src="/logobrotherhood.png" alt="Logo" class="w-32 sm:w-80 mx-auto" />
     </div>
 
-    <!-- Footer -->
-    <BrotherFooter />
   </div>
 </template>
 

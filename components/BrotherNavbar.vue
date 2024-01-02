@@ -19,9 +19,8 @@
   
   <script setup>
   const dropdownItems = [
-    { label: 'Produto 1', to: '/produto1' },
-    { label: 'Produto 2', to: '/produto2' },
-    { label: 'Produto 3', to: '/produto3' },
-    
+    [{ label: 'Produto 1', to: '/produto1' }],
+    [{ label: 'Produto 2', to: '/produto2' }],
+    [{ label: 'Produto 3', to: '/produto3' }],
   ];
   </script>
