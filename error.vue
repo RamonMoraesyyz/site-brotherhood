@@ -4,7 +4,7 @@
   
         <!-- Logo Elements -->
         <div class="relative z-0 text-center">
-          <img src="./public/elements.png.png" alt="Logo" class="w-80 mx-auto" />
+          <img src="./public/elements.png" alt="Logo" class="w-80 mx-auto" />
         </div>
   
         <!-- Conteúdo do erro -->
