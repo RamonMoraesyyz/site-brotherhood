@@ -1,45 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Carregamento</title>
+    <title>Brotherhood</title>
     <style>
-        body {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            height: 100vh;
+        body, html {
+            height: 100%;
             margin: 0;
-            background-color: rgb(255 247 237)
-        }
-
-        button {
-            background-color: black;
-            color: white;
-            padding: 8px 16px; 
-            border: 2px solid black;
-            border-radius: 5px;
-            cursor: pointer;
             display: flex;
-            align-items: center;
             justify-content: center;
+            align-items: center;
+            background-color: black;
+            font-family: sans-serif;
         }
 
-        p {
-            font-size: 20px;
-            font-weight: bold;
-            font-family: 'Courier New', Courier, monospace;
-            margin-top: 20px; /* Espaço entre a logo e o texto */
+        .loading-container {
+            text-align: center;
+        }
+        .loading-text {
+            color: #c6cfd9;
+        }
+        .loading-image {
+            width: 100%;
+            max-width: 300px;
         }
     </style>
 </head>
 <body>
-    <button>
-        <p>Carregando... <br>
-           Em breve você conhecerá o melhor site de bebidas do mundo!
-        </p>
-    </button>
+    <div class="loading-container">
+        <img src="/elements.png" alt="Logo" class="loading-image" />
+        <p class="loading-text">Carregando...</p>
+    </div>
 </body>
 </html>
