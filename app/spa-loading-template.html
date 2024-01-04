@@ -3,14 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+    <title>Página de Carregamento</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            background-color: rgb(255 247 237)
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            padding: 8px 16px; 
+            border: 2px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Courier New', Courier, monospace;
+            margin-top: 20px; /* Espaço entre a logo e o texto */
+        }
+    </style>
 </head>
-<body class="flex items-center justify-center h-screen">
-
-    <button class="bg-black text-white p-4 rounded">
-        <p class="text-lg font-bold">Carregando...</p>
+<body>
+    <button>
+        <p>Carregando... <br>
+           Em breve você conhecerá o melhor site de bebidas do mundo!
+        </p>
     </button>
-
 </body>
 </html>
