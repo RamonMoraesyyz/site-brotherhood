@@ -27,7 +27,7 @@
                 </UFormGroup>
             </div>
 
-            <UTextarea color="white" variant="outline" placeholder="Mensagem" rows="13"/>
+            <UTextarea color="white" variant="outline" placeholder="Mensagem" :rows="13"/>
 
             <button class="my-2 py-2 rounded-lg w-full border-2 border-gray-800 bg-black text-xl text-white">
             Enviar

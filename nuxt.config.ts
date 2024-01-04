@@ -7,5 +7,7 @@ export default defineNuxtConfig({
   },
   ui: {
     icons: ['heroicons', 'ic', 'ri', 'tabler'],   
-  }
+  },
+  ssr: false, 
+
 })
