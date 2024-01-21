@@ -10,7 +10,7 @@
         <!-- Conteúdo do erro -->
         <div class="relative z-10 text-center mt-10">
           <p v-if="error" class="text-7xl font-bold text-white">{{ error.statusCode }}</p>
-          <p class="mt-7 text-4xl text-white">
+          <p class="mt-7 text-2xl text-white">
             Ops! Parece que alguém já bebeu essa página. <br>
             Talvez seja hora de explorar nosso cardápio novamente!
           </p>
