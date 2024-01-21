@@ -1,7 +1,5 @@
 <template>
-    <div class="h-screen bg-orange-50 text-black flex flex-col">
-      
-      <main class="flex flex-col bg-orange-50 h-screen">
+      <main class="flex flex-col mb-8">
         <div class="flex flex-row text-5xl font-bold px-7 py-8">
           <h1>Sobre nós</h1>
           <img class="h-12 px-3" src="../public/beer.png" />
@@ -19,8 +17,6 @@
         e nossos espaços acolhedores são ideais para reunir amigos e saborear juntos momentos cervejeiros extraordinários.
         </div>
       </main>
-      
-    </div>
   </template>
     
   <script setup>
