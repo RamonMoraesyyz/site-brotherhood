@@ -21,6 +21,5 @@
         <div class="p-8 border-4 border-gray-800 font-bold text-xl rounded-3xl">EBC: 47</div>
       </div>
     </div>
-
   </div>
 </template>
