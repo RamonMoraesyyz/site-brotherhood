@@ -2,6 +2,7 @@
     <header class="bg-black text-white px-4 flex justify-end">
       <div class="flex flex-row gap-2">
         <div class="absolute top-1 left-1 text-center ml-3">
+    <header class="bg-gray-900 text-white px-4 flex justify-between">
           <img src="/favicon.ico" alt="Favicon" class="w-8 h-8" />
         </div>
         <NuxtLink to="/">
