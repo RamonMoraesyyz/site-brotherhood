@@ -1,9 +1,7 @@
 <template>
-    <div class="min-h-screen bg-orange-50 text-black">
-      
-      <main>
-        <div class="grid grid-cols-2 gap-4">
-            <div class="mb-8">
+<main class="text-gray-800">
+    <div class="grid grid-cols-2 gap-4">
+        <div class="mb-8">
             <h1 class="text-5xl font-bold px-4 py-8">Contato</h1>
 
             <h2 class="text-xl px-4 py-2">Rua Francisco Medeiros, N°243, Centro<br>Bela Vista de Goiás/GO - CEP: 75240-000</h2>
@@ -44,11 +42,5 @@
             </button>
         </div>
     </div>
-    </main>
-  
-    </div>
-  </template>
-  
-  <script setup>
-  
-  </script>
+</main>
+</template>

@@ -1,5 +1,5 @@
 <template>
-      <main class="flex flex-col mb-8">
+      <main class="flex flex-col mb-16 text-gray-800">
         <div class="flex flex-row text-5xl font-bold px-7 py-8">
           <h1>Sobre nós</h1>
           <img class="h-12 px-3" src="../public/beer.png" />
