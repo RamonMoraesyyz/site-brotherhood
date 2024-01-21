@@ -9,15 +9,19 @@
         </div>
         <NuxtLink to="/">
           <UButton color="black" variant="solid" :ui="{ rounded: 'rounded-none' }">Início</UButton>
+          <UButton color="black" :ui="{ rounded: 'rounded-none' }">Início</UButton>
         </NuxtLink>
         <NuxtLink to="/sobrenos">
           <UButton color="black" variant="solid" :ui="{ rounded: 'rounded-none' }">Sobre nós</UButton>
+          <UButton color="black" :ui="{ rounded: 'rounded-none' }">Sobre nós</UButton>
         </NuxtLink>
         <NuxtLink to="/contato">
           <UButton color="black" variant="solid" :ui="{ rounded: 'rounded-none' }">Contato</UButton>
+          <UButton color="black" :ui="{ rounded: 'rounded-none' }">Contato</UButton>
         </NuxtLink>
         <UDropdown :items="dropdownItems" :popper="{ placement: 'bottom-start' }">
           <UButton color="black" variant="solid" :ui="{ rounded: 'rounded-none' }">Produtos</UButton>
+          <UButton color="black" :ui="{ rounded: 'rounded-none' }">Produtos</UButton>
         </UDropdown>
       </div>
     </header>
