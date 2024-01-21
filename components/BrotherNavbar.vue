@@ -3,7 +3,9 @@
       <div class="flex flex-row gap-2">
         <div class="absolute top-1 left-1 text-center ml-3">
     <header class="bg-gray-900 text-white px-4 flex justify-between">
+          <NuxtLink to="/">
           <img src="/favicon.ico" alt="Favicon" class="w-8 h-8" />
+          </NuxtLink>
         </div>
         <NuxtLink to="/">
           <UButton color="black" variant="solid" :ui="{ rounded: 'rounded-none' }">Início</UButton>
