@@ -5,6 +5,7 @@
 .nitro
 .cache
 dist
+.sublime
 
 # Node dependencies
 node_modules
