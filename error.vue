@@ -17,7 +17,7 @@
         </div>
   
         <p v-if="error" class="mt-7 text-white">{{ error.message }}</p>
-        <button @click="handleClearError" class="mt-7 bg-white text-black py-2 px-4 rounded font-bold">
+        <button @click="handleClearError" class="mt-7 bg-white text-black py-2 px-4 rounded font-medium">
           Retornar à página inicial
         </button>
       </div>
