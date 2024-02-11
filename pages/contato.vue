@@ -1,3 +1,7 @@
+<script setup>
+    //adicione aqui o seu código para envio do formulário de contato com o formspree 🍺
+</script>
+
 <template>
 <main class="text-gray-800 px-7">
     <div class="grid grid-cols-2 gap-4">
