@@ -1,3 +1,7 @@
+<script setup>
+  // Aqui fica a lógica para obter e guardar os itens do menu
+</script>
+
 <template>
     <header class="bg-gray-900 text-white px-4 flex justify-between">
       <!-- <div class="flex flex-row gap-2"> -->
@@ -16,17 +20,9 @@
         <NuxtLink to="/contato">
           <UButton color="black" :ui="{ rounded: 'rounded-none' }">Contato</UButton>
         </NuxtLink>
-        <UDropdown :items="dropdownItems" :popper="{ placement: 'bottom-start' }">
+        <UDropdown :popper="{ placement: 'bottom-start' }">
           <UButton color="black" :ui="{ rounded: 'rounded-none' }">Produtos</UButton>
         </UDropdown>
         </div>
     </header>
   </template>
-  
-  <script setup>
-  const dropdownItems = [
-    [{ label: 'Produto 1', to: '/produto1' }],
-    [{ label: 'Produto 2', to: '/produto2' }],
-    [{ label: 'Produto 3', to: '/produto3' }],
-  ];
-  </script>
