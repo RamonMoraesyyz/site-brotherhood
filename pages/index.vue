@@ -10,7 +10,6 @@
 
     <!-- Logo -->
     <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10">
-      <img src="/logobrotherhood.png" alt="Logo" class="w-32 sm:w-80 mx-auto" />
     </div>
 
   </div>
