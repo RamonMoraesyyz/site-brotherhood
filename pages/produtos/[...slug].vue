@@ -3,7 +3,6 @@
     
     <div class="flex justify-center items-center">
       <img :src="product.image" />
-      
     </div>
 
     <div class="flex flex-col p-4 justify-around">
@@ -11,15 +10,17 @@
         <h2 class="font-bold text-2xl mb-4">{{product.name}}</h2>
         <p>
           <ContentRenderer :value="product" />
-          {{product.harmonization}}
         </p>
+        <br/>
+        <p>
+          <b>Harmonização:</b> {{product.harmonization}}
+        </p>        
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
-        <div class="p-8 border-4 border-gray-800 font-bold text-xl rounded-3xl">{{product.abv}}</div>
-        <div class="p-8 border-4 border-gray-800 font-bold text-xl rounded-3xl">{{product.ibu}}</div>
-        <div class="p-8 border-4 border-gray-800 font-bold text-xl rounded-3xl">{{product.ebc}}</div>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center mb-8">
+        <div v-if="product.abv" class="p-8 border-4 border-gray-800 font-bold text-xl rounded-3xl">ABV: {{product.abv}}</div>
+        <div v-if="product.ibu" class="p-8 border-4 border-gray-800 font-bold text-xl rounded-3xl">IBU: {{product.ibu}}</div>
+        <div v-if="product.ebc" class="p-8 border-4 border-gray-800 font-bold text-xl rounded-3xl">EBC: {{product.ebc}}</div>
       </div>
     </div>
   </div>
@@ -32,4 +33,5 @@ const route = useRoute()
 const productName = route.params.slug
 
 const { data: product } = await useAsyncData('produtos', () => queryContent(`/produtos/${productName}`).findOne())
+
 </script>
