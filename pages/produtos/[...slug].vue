@@ -4,7 +4,7 @@ import { useRoute } from "nuxt/app";
 const route = useRoute()
 const productName = route.params.slug
 
-const { data: product } = await useAsyncData('produtos', () => queryContent(`/produtos/${productName}`).findOne())
+const { data: product } = await useAsyncData(() => queryContent(`/produtos/${productName}`).findOne())
 </script>
 
 <template>
