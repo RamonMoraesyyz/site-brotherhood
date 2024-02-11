@@ -19,6 +19,7 @@
         <div class="p-8 border-4 border-gray-800 font-bold text-xl rounded-3xl">{{product.abv}}</div>
         <div class="p-8 border-4 border-gray-800 font-bold text-xl rounded-3xl">{{product.ibu}}</div>
         <div class="p-8 border-4 border-gray-800 font-bold text-xl rounded-3xl">{{product.ebc}}</div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center mb-8">
       </div>
     </div>
   </div>
