@@ -1,3 +1,12 @@
+<script setup>
+import { useRoute } from "nuxt/app";
+
+const route = useRoute()
+const productName = route.params.slug
+
+const { data: product } = await useAsyncData('produtos', () => queryContent(`/produtos/${productName}`).findOne())
+</script>
+
 <template>
   <div class="flex-grow grid md:grid-cols-2 text-gray-800">
     
@@ -25,13 +34,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import { useRoute } from "nuxt/app";
-
-const route = useRoute()
-const productName = route.params.slug
-
-const { data: product } = await useAsyncData('produtos', () => queryContent(`/produtos/${productName}`).findOne())
-
-</script>
