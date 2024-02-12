@@ -5,6 +5,15 @@ const route = useRoute()
 const productName = route.params.slug
 
 const { data: product } = await useAsyncData(() => queryContent(`/produtos/${productName}`).findOne())
+  
+// Se não achar nenhum produto, retorna 404
+
+if (product.value === null){
+  throw createError({
+        statusCode: 404,
+         fatal: true,
+      });
+}
 </script>
 
 <template>
