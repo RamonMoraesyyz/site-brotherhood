@@ -1,5 +1,11 @@
 <script setup>
   // Aqui fica a lógica para obter e guardar os itens do menu
+  const { data: products } = await useAsyncData(() => queryContent('produtos').find())
+  const itensDoMenu = products.value.map((produto, index) => {
+  return [{ label: produto.name, to: produto._path }];
+
+});
+
 </script>
 
 <template>
@@ -20,7 +26,7 @@
         <NuxtLink to="/contato">
           <UButton color="black" :ui="{ rounded: 'rounded-none' }">Contato</UButton>
         </NuxtLink>
-        <UDropdown :popper="{ placement: 'bottom-start' }">
+        <UDropdown :items="itensDoMenu" :popper="{ placement: 'bottom-start' }">
           <UButton color="black" :ui="{ rounded: 'rounded-none' }">Produtos</UButton>
         </UDropdown>
         </div>
