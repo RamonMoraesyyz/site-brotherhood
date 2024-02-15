@@ -1,6 +1,9 @@
 <template>
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
-    <UNotifications />
+  <Head>
+    <Title>Bebidas Brotherhood</Title>
+  </Head>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
+  <UNotifications />
 </template>
