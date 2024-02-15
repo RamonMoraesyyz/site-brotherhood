@@ -10,4 +10,7 @@ export default defineNuxtConfig({
     icons: ['heroicons', 'ic', 'ri', 'tabler'],   
   },
   ssr: false, 
+
+  css: ["~/assets/css/main.css"],
+
 })
