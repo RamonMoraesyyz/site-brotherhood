@@ -1,8 +1,6 @@
 <template>
   <footer class="fixed bottom-0 w-full bg-gray-900 px-4 flex justify-between items-center text-gray-50">
 
-    <div>2024 | Brotherhood bebidas artesanais</div>
-
     <div>{{ new Date().getFullYear() }} | Brotherhood bebidas artesanais</div>
 
     <div class="flex flex-row items-center">
